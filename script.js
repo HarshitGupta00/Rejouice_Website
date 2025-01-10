@@ -27,3 +27,17 @@ function Homecursor(){
 }
 Homecursor();
 
+gsap.from("#page1-content h1 span", {
+    y: "25vw",    // Move vertically from 20vw
+    duration: 1, // Animation duration for each span
+    delay: 0.5,   // Delay before animation starts
+    stagger: 0.07, // Stagger of 0.2 seconds between each span
+
+  });
+  gsap.from(".nav-p1" , {
+    y:"-5vw",
+    duration: 1, // Animation duration for each span
+    delay: 0.5,   // Delay before animation starts
+   
+  })
+  
